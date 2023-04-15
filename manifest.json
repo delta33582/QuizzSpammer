@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "UIT Quizz Spammer",
+    "version": "1.0",
+    "description": "Get perpect 10",
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://courses.uit.edu.vn/mod/quiz/*"
+        ],
+        "js": [
+          "contentScript.js"
+        ]
+      }
+    ]
+  }
+  
